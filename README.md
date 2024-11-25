@@ -73,3 +73,13 @@ Name the new database "osTicket"
 Continue setting up osTicket in browser. Under "MySQL Database" type "osTicket", and "root" for the MySQL Username and password.
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/XirSk9Q.png" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Cleanup by deleting the setup file (C:\inetpub\wwwroot\osTicket\setup).
+Set Permissions to "Read" only in the ost-config.php file.
+You can now log in to osTicket.
+</p>
+<br />
