@@ -31,27 +31,33 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/kxxornI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Install osTicket v1.15.8 - From the "osTicket-Instillation-Files" folder, unzip "osTicket-v1.15.8.zip" and copy the "upload" folder into "c:\inetpub\wwwroot" 
+Install osTicket v1.15.8 - From the "osTicket-Instillation-Files" folder, unzip "osTicket-v1.15.8.zip" and copy the "upload" folder into "c:\inetpub\wwwroot". 
 (Within "c:\inetpub\wwwroot", rename "upload" to "osTicket")
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/iMfbI8L.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/iMfbI8L.png" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 On IIS, go to sites -> Default -> osTicket, and click "Browse *:80" on the right side.
-Double click PHP Manager and click "Enable or disable an extension" 
-Enable "php_imap.dll"
-Enable "php_intl.dll"
+Double click PHP Manager and click "Enable or disable an extension". 
+Enable "php_imap.dll",
+Enable "php_intl.dll",
 Enable "php_opcache.dll"
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/glDgNql.png" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Go back to file explorer and find "C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php"
+Rename the "ost-sampleconfig.php" to "ost-config.php"
+After renaming the file, right click on it and go to properties -> security -> advance
+Disable the inheritance and select remove all inherited permissions from this object.
+Next, click add -> Select a principal -> and type "Everyone" in the box.
+Under basic permissions check Full control.
+Click Apply and Ok
 </p>
 <br />
