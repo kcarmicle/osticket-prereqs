@@ -61,3 +61,15 @@ Under basic permissions check Full control.
 Click Apply and Ok
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/bpDl3l7.png" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Download and install HeidiSQL from the Instillation Files.
+Once the program is open select new and make the username "root" and the password "root".
+Next, create a new database within HeidiSQL. Right click "Unnamed" -> Create new -> Database.
+Name the new database "osTicket"
+Continue setting up osTicket in browser. Under "MySQL Database" type "osTicket", and "root" for the MySQL Username and password.
+</p>
+<br />
