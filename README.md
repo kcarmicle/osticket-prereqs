@@ -27,9 +27,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
-<p> <img src="[https://i.imgur.com/DJmEXEB.png](https://i.imgur.com/TPbcokq.png)" height="80%" width="80%" alt="Disk Sanitization
-
-
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Install osTicket v1.15.8 - From the "osTicket-Instillation-Files" folder, unzip "osTicket-v1.15.8.zip" and copy the "upload" folder into "c:\inetpub\wwwroot" (Within "c:\inetpub\wwwroot", rename "upload" to "osTicket")
